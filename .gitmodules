@@ -4,6 +4,7 @@
 [submodule "tests/bao-tests"]
 	path = tests/bao-tests
 	url = https://github.com/bao-project/bao-tests.git
+	branch = main
 [submodule "tests/bao-nix"]
 	path = tests/bao-nix
 	url = https://github.com/bao-project/bao-nix.git
