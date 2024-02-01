@@ -3,10 +3,10 @@
 	url = git@github.com:bao-project/bao-ci.git
 [submodule "tests/bao-tests"]
 	path = tests/bao-tests
-	url = https://github.com/bao-project/bao-tests.git
+	url = git@github.com:bao-project/bao-tests.git
 	branch = main
 [submodule "tests/bao-nix"]
 	path = tests/bao-nix
-	url = https://github.com/bao-project/bao-nix.git
+	url = git@github.com:bao-project/bao-nix.git
 	branch = update/guests-recipes
 	
