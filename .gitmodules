@@ -8,5 +8,5 @@
 [submodule "tests/bao-nix"]
 	path = tests/bao-nix
 	url = git@github.com:bao-project/bao-nix.git
-	branch = update/guests-recipes
+	branch = main
 	

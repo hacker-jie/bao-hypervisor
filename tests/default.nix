@@ -49,13 +49,13 @@ let
                 };
 
     # Build firmware (1/2)
-    u-boot = callPackage ./bao-nix/pkgs/u-boot/u-boot.nix 
+    u-boot = callPackage ./bao-nix/pkgs/firmware/u-boot/u-boot.nix 
                 { 
                   toolchain = aarch64-none-elf; 
                 };
 
     # Build firmware (2/2)
-    atf = callPackage ./bao-nix/pkgs/atf/atf.nix 
+    atf = callPackage ./bao-nix/pkgs/firmware/atf/atf.nix 
                 { 
                   toolchain = aarch64-none-elf; 
                   inherit u-boot; 
